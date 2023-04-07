@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+			<div class="backimg">
+			<div class="text-white text-center">
+				<h1>Welcome Online Diary</h1>
+				<p>
+				A digital diary is a place where you can record personal events and experiences online.<br>
+				 Rather than keeping a traditional diary or notebook to express your thoughts and feelings,<br>
+				you can create a diary and make it available anywhere and everywhere,
+				 as long as you have access to the internet. 
+				</p>
+				<a th:href="@{login}" class="btn btn-primary ms-2"> Get Start</a>								
+		   </div>
+		</div>
+	</section>
+</body>
+</html>
